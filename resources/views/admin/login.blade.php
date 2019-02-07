@@ -28,6 +28,7 @@
         <div class="card-body login-card-body">
             <p class="login-box-msg">
                 {{ session()->get('error') }}
+                {{ session()->get('suc') }}
             </p>
             <form action="{{ aurl('login') }}" method="post">
                 @csrf

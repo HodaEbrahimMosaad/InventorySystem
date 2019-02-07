@@ -28,11 +28,18 @@
         <div class="card-body login-card-body">
             <p class="login-box-msg">
                 {{ session()->get('error') }}
+                @include('layout.message')
             </p>
-            <form action="{{ aurl('reset_password') }}" method="post">
+            <form method="post">
                 @csrf
                 <div class="form-group has-feedback">
-                    <input type="email" name="email" class="form-control" placeholder="Email">
+                    <input type="email" value="{{ $admin_token->email }}" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group has-feedback">
+                    <input type="password" name="password" class="form-control" placeholder="Reset Password">
+                </div>
+                <div class="form-group has-feedback">
+                    <input type="password" name="password_confirmation" class="form-control" placeholder="Password Confirmation">
                 </div>
                 <div class="row">
                     <!-- /.col -->
@@ -47,13 +54,20 @@
     </div>
 </div>
 <!-- /.login-box -->
-
 <!-- jQuery -->
 <script src="{{ asset('adminlte/plugins/jquery/jquery.min.js') }}"></script>
 <!-- Bootstrap 4 -->
 <script src="{{ asset('adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <!-- iCheck -->
 <script src="{{ asset('adminlte/plugins/iCheck/icheck.min.js') }}"></script>
-
+<script>
+    $(function () {
+        $('input').iCheck({
+            checkboxClass: 'icheckbox_square-blue',
+            radioClass   : 'iradio_square-blue',
+            increaseArea : '20%' // optional
+        })
+    })
+</script>
 </body>
 </html>

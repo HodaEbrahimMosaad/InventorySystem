@@ -40,17 +40,53 @@ class AdminAuth extends Controller
     public function reset_password_action(Request $request)
     {
         $admin = Admin::where('email' , $request->email)->first();
-        if (!$admin){
+        if ($admin){
             $token = app('auth.password.broker')->createToken($admin);
             $data = DB::table('password_resets')->insert([
                 'email' => $admin->email,
                 'token' => $token,
                 'created_at' => Carbon::now()
             ]);
-            Mail::to($admin->email)->send(new AdminResetPassword(['data'=>$admin , 'token'=>$token]));
+            Mail::to($admin->email)->send(new AdminResetPassword(['admin'=>$admin , 'token'=>$token]));
             session()->flash('suc' , 'Reset link has been sent to your email');
-            return back();
+            return redirect(aurl('login'));
         }
-        return back();
+        return redirect(aurl('login'));
+    }
+
+    public function reset_password_by_token($token)
+    {
+        $admin_token = DB::table('password_resets')->where('token', $token)->first();
+        if($admin_token)
+        {
+            return view('admin.reset_password_by_token', compact('admin_token'));
+        } else {
+            session()->fresh('error', 'Try Again');
+            redirect(aurl('reset_password'));
+        }
+    }
+
+    public function reset_password_by_token_action($token, Request $request)
+    {
+        $attributes = $request->validate([
+            'password' => 'required|min:6|max:10|confirmed',
+            'password_confirmation' => 'required'
+        ], [] , [
+            'password_confirmation' => 'Confirmation password'
+        ]);
+        $admin_token = DB::table('password_resets')->where('token', $token)->first();
+        if($admin_token)
+        {
+            $admin = Admin::where('email' , $admin_token->email)->update([
+                'password' => bcrypt($request->password)
+            ]);
+            DB::table('password_resets')->where('email', $admin_token->email)->delete();
+            admin()->attempt(['email'=>$admin_token->email , 'password'=> $request->password], true);
+            return redirect(aurl());
+
+        } else {
+            session()->flash('error', 'Try Again');
+            redirect(aurl('reset_password'));
+        }
     }
 }
