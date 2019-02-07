@@ -44,4 +44,9 @@ class User extends Authenticatable
     {
         return $this->hasMany(Transaction::class, 'created_by');
     }
+
+    public function inventories()
+    {
+        return $this->hasMany(Inventory::class, 'created_by');
+    }
 }
