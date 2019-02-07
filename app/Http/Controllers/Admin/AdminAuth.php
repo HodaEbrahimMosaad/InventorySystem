@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
-use App\Admin;
+use App\User;
 use App\Http\Controllers\Controller;
 
 use App\Mail\AdminResetPassword;
@@ -17,6 +17,7 @@ class AdminAuth extends Controller
     {
         return view('admin.login');
     }
+
     public function login_action(Request $request)
     {
         $rememberme = $request->rememberme == 1 ? true : false ;
@@ -37,9 +38,10 @@ class AdminAuth extends Controller
     {
         return view('admin.reset_password');
     }
+
     public function reset_password_action(Request $request)
     {
-        $admin = Admin::where('email' , $request->email)->first();
+        $admin = User::where('email' , $request->email)->first();
         if ($admin){
             $token = app('auth.password.broker')->createToken($admin);
             $data = DB::table('password_resets')->insert([
@@ -77,7 +79,7 @@ class AdminAuth extends Controller
         $admin_token = DB::table('password_resets')->where('token', $token)->first();
         if($admin_token)
         {
-            $admin = Admin::where('email' , $admin_token->email)->update([
+            $admin = User::where('email' , $admin_token->email)->update([
                 'password' => bcrypt($request->password)
             ]);
             DB::table('password_resets')->where('email', $admin_token->email)->delete();

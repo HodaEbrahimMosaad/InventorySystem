@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -18,11 +19,13 @@ class CreateUsersTable extends Migration
             $table->string('name')->nullable();
             $table->string('email')->unique()->nullable();
             $table->string('password');
+            $table->unsignedInteger('created_by')->nullable();
+            $table->softDeletes();
             $table->rememberToken();
             $table->timestamps();
-            $table->timestamp('email_verified_at')->nullable();
-
         });
+
+
     }
 
     /**

@@ -6,9 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class Admin extends Authenticatable
+class Admin extends Modal
 {
-    use Notifiable;
     protected $table = 'admins';
     protected $fillable = [
         'name', 'email', 'password',

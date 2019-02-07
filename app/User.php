@@ -17,7 +17,7 @@ class User extends Authenticatable
     protected $dates = ['created_at', 'updated_at', 'deleted_at'];
 
     protected $fillable = [
-        'name', 'email', 'password', 'created_by', 'updated_by', 'deleted_by'
+        'name', 'email', 'password', 'rememberme', 'created_by', 'updated_by', 'deleted_by'
     ];
 
     protected $date = ['updated_at', 'created_at', 'deleted_at'];
@@ -33,5 +33,15 @@ class User extends Authenticatable
     public function suppliers()
     {
         return $this->hasMany(Suppliers::class, 'created_by');
+    }
+
+    public function items()
+    {
+        return $this->hasMany(Item::class, 'created_by');
+    }
+
+    public function transactions()
+    {
+        return $this->hasMany(Transaction::class, 'created_by');
     }
 }
