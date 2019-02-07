@@ -2,8 +2,1006 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1625b104-37ac-4a2b-a713-dabbc587a6a6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Inventory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Inventory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/js/.jscsrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/js/AdminLTE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/js/ControlSidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/js/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/js/PushMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/js/SiteSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/js/Treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/js/Widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/npm/Plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/npm/Publish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/.csslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/AdminLTE-raw.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/AdminLTE.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_404_500_errors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_bootstrap-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_brand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_callout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_control-sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_direct-chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_elevation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_fullcalendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_info-box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_invoice.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_lockscreen.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_login_and_register.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_mailbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_main-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_main-sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_miscellaneous.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_navs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_products.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_progress-bars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_select2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_sidebar-mini.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_small-box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_social-widgets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_users-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/build/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/css/adminlte.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/css/adminlte.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/css/adminlte.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/AdminLTELogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/credit/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/default-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/adminlte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/adminlte.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/adminlte.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/pages/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/pages/dashboard2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/pages/dashboard3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chart.js2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/axes/cartesian/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/axes/cartesian/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/axes/cartesian/linear.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/axes/cartesian/logarithmic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/axes/cartesian/time.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/axes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/axes/labelling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/axes/radial/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/axes/radial/linear.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/axes/styling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/charts/area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/charts/bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/charts/bubble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/charts/doughnut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/charts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/charts/line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/charts/mixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/charts/polar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/charts/radar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/charts/scatter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/configuration/animations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/configuration/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/configuration/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/configuration/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/configuration/legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/configuration/title.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/configuration/tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/developers/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/developers/axes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/developers/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/developers/contributing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/developers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/developers/plugins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/developers/updates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/general/colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/general/device-pixel-ratio.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/general/fonts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/general/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/general/interactions/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/general/interactions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/general/interactions/modes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/general/options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/general/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/getting-started/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/getting-started/installation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/getting-started/integration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/getting-started/usage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-anchorjs/anchor-style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/chartjs-plugin-deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/chartjs-plugin-deferred.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-fontsettings/fontsettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-fontsettings/website.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-ga/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-highlight/ebook.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-highlight/website.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-search-plus/jquery.mark.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-search-plus/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-search-plus/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-sharing/buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/gitbook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/images/apple-touch-icon-precomposed-152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/gitbook/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/notes/comparison.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/notes/extensions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/notes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/notes/license.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/search_plus_index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/chartjs2/docs/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/esm/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/esm/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/esm/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/esm/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/esm/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/esm/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/esm/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/esm/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/umd/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/umd/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/umd/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/dist/js/plugins/popper/umd/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/UI/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/UI/general.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/UI/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/UI/sliders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/charts/chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/charts/flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/charts/inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/examples/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/examples/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/examples/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/examples/invoice-print.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/examples/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/examples/lockscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/examples/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/examples/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/examples/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/forms/advanced.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/forms/editors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/forms/general.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/mailbox/compose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/mailbox/mailbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/mailbox/read-mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/tables/data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/tables/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap-slider/bootstrap-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap-slider/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/axes/cartesian/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/axes/cartesian/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/axes/cartesian/linear.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/axes/cartesian/logarithmic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/axes/cartesian/time.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/axes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/axes/labelling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/axes/radial/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/axes/radial/linear.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/axes/styling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/charts/area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/charts/bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/charts/bubble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/charts/doughnut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/charts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/charts/line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/charts/mixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/charts/polar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/charts/radar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/charts/scatter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/configuration/animations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/configuration/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/configuration/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/configuration/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/configuration/legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/configuration/title.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/configuration/tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/developers/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/developers/axes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/developers/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/developers/contributing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/developers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/developers/plugins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/developers/updates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/general/colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/general/device-pixel-ratio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/general/device-pixel-ratio.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/general/fonts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/general/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/general/interactions/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/general/interactions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/general/interactions/modes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/general/options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/general/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/getting-started/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/getting-started/installation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/getting-started/integration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/getting-started/usage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/fonts/fontawesome/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/fonts/fontawesome/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/fonts/fontawesome/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/fonts/fontawesome/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/fonts/fontawesome/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/fonts/fontawesome/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-anchorjs/anchor-style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/chartjs-plugin-deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/chartjs-plugin-deferred.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-fontsettings/fontsettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-fontsettings/website.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-ga/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-highlight/ebook.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-highlight/website.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-search-plus/jquery.mark.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-search-plus/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-search-plus/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook-plugin-sharing/buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/gitbook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/images/apple-touch-icon-precomposed-152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/gitbook/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/notes/comparison.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/notes/extensions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/notes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/notes/license.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/search_plus_index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chart.js/docs/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chartjs-old/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/chartjs-old/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/ckeditor.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/ast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/kn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ckeditor/translations/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/colorpicker/bootstrap-colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/colorpicker/bootstrap-colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/colorpicker/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/colorpicker/img/alpha-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/colorpicker/img/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/colorpicker/img/hue-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/colorpicker/img/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/colorpicker/img/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/examples/columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/examples/fill-both.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/examples/scrolling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/examples/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/examples/step-callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/images/filler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/col_filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/colvis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/new_init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/predefined.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/realtime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/scrolling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/server_side.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/examples/state_save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/images/insert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/button_order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/group_columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/mouseover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/new_init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/restore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/title_callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/two_tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/colvis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/css_size.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/index_column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/right_column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/examples/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/KeyTable/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/KeyTable/examples/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/KeyTable/examples/html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/KeyTable/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/KeyTable/examples/scrolling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/KeyTable/examples/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/display-control/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/styling/compact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/examples/data/2500.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/examples/data/ssp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/examples/large_js_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/examples/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/examples/state_saving.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/images/loading-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/button_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/collection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/defaults.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/multi_instance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/new_init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/pdf_message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/plug-in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/select_column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/select_multi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/select_os.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/select_single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/examples/swf_path.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/collection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/collection_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/copy_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/csv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/csv_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/pdf_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/print_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/psd/collection.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/psd/printer.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/xls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/images/xls_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datatables/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.kr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.rs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.ua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/daterangepicker/daterangepicker-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/daterangepicker/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/daterangepicker/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/fastclick/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/fastclick/fastclick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.colorhelpers.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.canvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.categories.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.crosshair.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.errorbars.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.fillbetween.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.image.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.navigate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.pie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.selection.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.stack.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.symbol.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.threshold.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/flot/jquery.flot.time.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/fullcalendar/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/fullcalendar/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/fullcalendar/fullcalendar.print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/flat@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/flat/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/futurico/futurico.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/futurico/futurico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/futurico/futurico@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/icheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/line.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/line@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/line/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/minimal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/minimal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/minimal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/minimal/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/polaris/polaris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/polaris/polaris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/polaris/polaris@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/square.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/square@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/input-mask/jquery.inputmask.date.extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/input-mask/jquery.inputmask.extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/input-mask/jquery.inputmask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/input-mask/jquery.inputmask.numeric.extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/input-mask/jquery.inputmask.phone.extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/input-mask/jquery.inputmask.regex.extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/input-mask/phone-codes/phone-be.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/input-mask/phone-codes/phone-codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/input-mask/phone-codes/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ionslider/img/sprite-skin-flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ionslider/img/sprite-skin-nice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ionslider/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ionslider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ionslider/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/ionslider/ion.rangeSlider.skinNice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jQueryUI/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jQueryUI/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jvectormap/jquery-jvectormap-1.2.2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jvectormap/jquery-jvectormap-usa-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/knob/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/morris/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/morris/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/morris/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/pace/pace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/pace/pace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/pace/pace.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/pace/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/esm/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/esm/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/esm/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/esm/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/esm/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/esm/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/esm/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/esm/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/umd/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/umd/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/umd/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/popper/umd/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/slimScroll/jquery.slimscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/slimScroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/sparkline/jquery.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/timepicker/bootstrap-timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/timepicker/bootstrap-timepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/timepicker/bootstrap-timepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/plugins/timepicker/bootstrap-timepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/starter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/form_layout/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/form_layout/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/form_layout/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/functions/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/functions/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/reset_password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/reset_password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/reset_password_by_token.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/reset_password_by_token.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/aside.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/6f8e11a57043f668940b918289a129841b70eba9.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/6f8e11a57043f668940b918289a129841b70eba9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/964b631986c6965e766c8c86b41063a171d2829a.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/964b631986c6965e766c8c86b41063a171d2829a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/9b74d84c038c699645e34cc8a1b2c91d7b6ea88f.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/9b74d84c038c699645e34cc8a1b2c91d7b6ea88f.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/beb1d0ca9a362da7cd06788c99520efb031a420f.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/beb1d0ca9a362da7cd06788c99520efb031a420f.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,92 +1015,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdminAuth.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminAuth.php">
+      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="588">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+              <folding>
+                <element signature="e#45#81#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019_02_07_165715_create_inventories_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_07_165715_create_inventories_table.php">
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="310">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inventory.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Inventory.php">
+      <file leaf-file-name="helper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/functions/helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="178">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Suppliers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Suppliers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019_02_07_141743_create_transactions_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_07_141743_create_transactions_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019_02_07_135419_create_items_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_07_135419_create_items_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="23" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RouteServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-            </state>
-          </provider>
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            <state relative-caret-position="155">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#23#68#0#PHP" expanded="true" />
               </folding>
@@ -115,6 +1067,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>img</find>
+      <find>Horizontal Form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,18 +1081,12 @@
         <option value="$PROJECT_DIR$/app/Http/Middleware/Manager.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Admin.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/Http/functions/helper.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/aside.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/nav.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/home.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/mail.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/reset_password.blade.php" />
         <option value="$PROJECT_DIR$/app/Mail/AdminResetPassword.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/email/admin_reset_password.blade.php" />
-        <option value="$PROJECT_DIR$/routes/admin.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/reset_password_by_token.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/marager/home.blade.php" />
         <option value="$PROJECT_DIR$/app/UserRole.php" />
         <option value="$PROJECT_DIR$/app/Role.php" />
@@ -153,7 +1100,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_02_07_141743_create_transactions_table.php" />
         <option value="$PROJECT_DIR$/app/Transaction.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminAuth.php" />
         <option value="$PROJECT_DIR$/app/Admin.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_02_07_135419_create_items_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
@@ -166,6 +1112,20 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_02_07_165715_create_inventories_table.php" />
         <option value="$PROJECT_DIR$/app/Inventory.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/login.form/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/login.form/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/login-form/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/login-form/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/login-form/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/aside.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminAuth.php" />
+        <option value="$PROJECT_DIR$/routes/admin.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" />
+        <option value="$PROJECT_DIR$/app/Http/functions/helper.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/reset_password.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/reset_password_by_token.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/create.blade.php" />
       </list>
     </option>
   </component>
@@ -180,6 +1140,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/package.json" />
     </packageJsonPaths>
   </component>
   <component name="PhpServers">
@@ -281,7 +1242,9 @@
     <option name="width" value="1070" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -310,6 +1273,21 @@
               <item name="task_5" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task_5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task_5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,23 +1300,6 @@
               <item name="task_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="task_5" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_5" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_5" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_5" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task_5" type="b2602c69:ProjectViewProjectNode" />
@@ -363,7 +1324,7 @@
               <item name="task_5" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="marager" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task_5" type="b2602c69:ProjectViewProjectNode" />
@@ -416,12 +1377,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549442856458</updated>
-      <workItem from="1549442858555" duration="43623000" />
+      <workItem from="1549442858555" duration="49223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43623000" />
+    <option name="totallyTimeSpent" value="49223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -433,8 +1394,9 @@
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.23311259" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.27315435" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.23311259" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.27785236" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Mathematica REPL" order="1" weight="0.3295302" />
       <window_info anchor="right" id="Database" order="0" />
@@ -447,7 +1409,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
     </layout>
@@ -459,127 +1420,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/reset_password_by_token.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../task1/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="18" selection-end-line="588" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/marager/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="508" column="42" selection-start-line="508" selection-start-column="42" selection-end-line="508" selection-end-column="42" />
-          <folding>
-            <element signature="e#34609#34628#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/laravel-admin-starter-master/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/laravel-admin-starter-master/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2044" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../system/database/migrations/2018_10_19_125146_create_user_image_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User-role.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../system/app/UserRole.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../system/app/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../system/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -629,13 +1469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/functions/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -726,9 +1559,6 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="764">
@@ -760,13 +1590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminAuth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_07_141743_create_transactions_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -795,20 +1618,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/app/Inventory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/design/AdminLTE-3.0.0-alpha.2/pages/forms/general.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21972">
+          <caret line="712" column="10" lean-forward="true" selection-start-line="712" selection-start-column="10" selection-end-line="752" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/form_layout/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/form_layout/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/aside.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/form_layout/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task1/app/Http/Controllers/Admin/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task1/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../system/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="68" column="30" lean-forward="true" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="e#23#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Inventory.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="588">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/message.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/functions/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/reset_password.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/reset_password_by_token.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>

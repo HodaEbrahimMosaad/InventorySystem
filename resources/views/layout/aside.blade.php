@@ -29,27 +29,15 @@
                         <a href="#" class="nav-link active">
                         <i class="nav-icon fa fa-dashboard"></i>
                         <p>
-                            Dashboard
+                            Manage Admin
                             <i class="right fa fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="./index.html" class="nav-link active">
+                            <a target="_blank" href="{{ aurl('create') }}" class="nav-link active">
                                 <i class="fa fa-circle-o nav-icon"></i>
-                                <p>Dashboard v1</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./index2.html" class="nav-link">
-                                <i class="fa fa-circle-o nav-icon"></i>
-                                <p>Dashboard v2</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./index3.html" class="nav-link">
-                                <i class="fa fa-circle-o nav-icon"></i>
-                                <p>Dashboard v3</p>
+                                <p>Add Admin</p>
                             </a>
                         </li>
                     </ul>

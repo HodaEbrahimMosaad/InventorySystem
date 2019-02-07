@@ -14,6 +14,8 @@ Route::group(['prefix' => 'admin', 'namespace' => "Admin"], function () {
         Route::get('/', function () {
             return view('admin.home');
         });
+        Route::get('create', 'AdminController@create');
+        Route::post('create', 'AdminController@store');
         Route::any('/logout', 'AdminAuth@logout');
     });
 

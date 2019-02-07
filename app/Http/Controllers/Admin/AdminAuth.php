@@ -22,6 +22,8 @@ class AdminAuth extends Controller
     {
         $rememberme = $request->rememberme == 1 ? true : false ;
         if(admin()->attempt(['email' => $request->email , 'password'=> $request->password], $rememberme)){
+            $admin = User::where('email', $request->email)->first();
+            admin()->login($admin);
             return redirect(aurl());
         } else {
             session()->flash('error' , 'Log in was unsuccessful.');
