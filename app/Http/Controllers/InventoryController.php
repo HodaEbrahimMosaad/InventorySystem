@@ -19,7 +19,9 @@ class InventoryController extends Controller
     public function index()
     {
         $inventories = Inventory::all();
-        return view('inventory.index',compact('inventories'));
+        return view('inventory.index')->with([
+            'inventories' => $inventories,
+        ]);
     }
 
     /**
@@ -29,7 +31,8 @@ class InventoryController extends Controller
      */
     public function create()
     {
-        return view('inventory.create');
+        $managers = User::get_managers();
+        return view('inventory.create', compact('managers'));
     }
 
     /**
@@ -43,15 +46,19 @@ class InventoryController extends Controller
         $request->validate([
             'name' => 'required|min:3|max:15',
             'description' => 'required|min:10|max:100',
+            'manager_id' => 'required'
         ]);
+
         $inputs = [
             'name' => $request->name,
             'description' => $request->description,
+            'manager_id' => $request->manager_id,
             'created_by' => admin()->user()->id
         ];
+        //return $inputs;
         Inventory::create($inputs);
         session()->flash('suc', 'Inventory has been created suc');
-        return redirect(aurl('create'));
+        return redirect(aiurl('create'));
     }
 
     /**

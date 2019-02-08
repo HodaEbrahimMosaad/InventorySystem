@@ -24,9 +24,16 @@ Route::group(['prefix' => 'admin'], function () {
         Route::group(['prefix' => 'manager', 'namespace'], function () {
             Route::resource('/', 'ManagerController');
             Route::get('/{user}', 'ManagerController@show');
+            Route::get('/create', 'ManagerController@create');
+            Route::post('/create', 'ManagerController@store');
+            Route::get('/edit/{user}', 'ManagerController@edit');
+            Route::patch('/update/{user}', 'ManagerController@update');
+            Route::post('/destroy', 'ManagerController@destroy');
         });
         Route::group(['prefix' => 'inventory', 'namespace'], function () {
-            Route::resource('/', 'InventoryController');
+            Route::get('/', 'InventoryController@index');
+            Route::get('/create', 'InventoryController@create');
+            Route::post('/create', 'InventoryController@store');
             Route::get('/{inventory}', 'InventoryController@show');
             Route::post('/edit', 'InventoryController@edit');
             Route::post('/update', 'InventoryController@update');

@@ -69,21 +69,21 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fa fa-tree"></i>
                         <p>
-                            UI Elements
+                            Manage Manager
                             <i class="fa fa-angle-left right"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/UI/general.html" class="nav-link">
+                            <a target="_blank" href="{{ amurl() }}" class="nav-link">
                                 <i class="fa fa-circle-o nav-icon"></i>
-                                <p>General</p>
+                                <p>Present all</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/UI/icons.html" class="nav-link">
+                            <a target="_blank" href="{{ amurl('create') }}" class="nav-link">
                                 <i class="fa fa-circle-o nav-icon"></i>
-                                <p>Icons</p>
+                                <p>Create Manager</p>
                             </a>
                         </li>
                         <li class="nav-item">

@@ -5,22 +5,41 @@
     <div class="col-md-6" style="margin: 20px auto; height: -webkit-fill-available">
         <div class="card card-primary">
             <div class="card-header">
-                <h3 class="card-title">About {{ $inventory->name }}</h3>
+                <h3 class="card-title">About {{ $user->name }}</h3>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
                 <strong><i class="fa fa-book mr-1"></i> Name</strong>
 
                 <p class="text-muted">
-                    {{ $inventory->name }}
+                    {{ $user->name }}
                 </p>
 
                 <hr>
-                <strong><i class="fa fa-map-marker mr-1"></i> Description</strong>
+                <strong><i class="fa fa-book mr-1"></i> Email</strong>
 
                 <p class="text-muted">
-                    {{ $inventory->description }}
+                    {{ $user->email }}
                 </p>
+
+                <hr>
+                <strong><i class="fa fa-book mr-1"></i> Inventories</strong>
+
+                <p class="text-muted">
+                    @if(count($user->inventories)!=0)
+                    <select class="form-control">
+                        @php $inventories = $user->inventories; @endphp
+                        @foreach( $inventories as $inventory)
+                            <option>
+                                {{ $inventory->name }}
+                            </option>
+                        @endforeach
+                    </select>
+                    @else
+                        No Inventories
+                    @endif
+                </p>
+
             </div>
             <!-- /.card-body -->
         </div>

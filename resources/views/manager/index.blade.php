@@ -39,12 +39,12 @@
                     </td>
 
                     <td>
-                        <a class="btn btn-primary edit btn-sm" href="{{ amurl('edit/'.$manager->id) }}">
+                        <a target="_blank" class="btn btn-primary edit btn-sm" href="{{ amurl('edit/'.$manager->id) }}">
                             <i class="fa fa-edit">
                                 edit
                             </i>
                         </a>
-                        <a class="btn btn-danger btn-sm" data-id="{{ $manager->id }}">
+                        <a data-toggle="modal" data-target="#exampleModal" class="btn btn-danger delete btn-sm" data-id="{{ $manager->id }}">
                             <i class="fa fa-trash">
                                 delete
                             </i>
@@ -78,7 +78,7 @@
                     Delete Manager ?
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" id="delete" style="display: none;">Delete</button>
+                    <button type="button" class="btn btn-danger" id="delete">Delete</button>
                     <button type="button" class="btn btn-primary" data-dismiss="modal" id="addBtn" style="display: none;">Add</button>
                 </div>
             </div>
@@ -88,7 +88,7 @@
 @section('js')
     <script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('js/dataTable.bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/inv_index.js') }}"></script>
+    <script src="{{ asset('js/man_index.js') }}"></script>
     <script>
         $('#myTable').DataTable();
     </script>

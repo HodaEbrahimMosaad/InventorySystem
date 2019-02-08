@@ -1,4 +1,4 @@
-@php $title = 'Create Admin'; @endphp
+@php $title = 'Create Manager'; @endphp
 
 @extends('layout.master')
 @section('content')
@@ -8,9 +8,9 @@
     <!-- Horizontal Form -->
         <div class="card card-info">
             <div class="card-header">
-                <h3 class="card-title">Create Inventory</h3>
+                <h3 class="card-title">Create Manager</h3>
             </div>
-            <form action="{{ aiurl('create') }}" method="post" class="form-horizontal">
+            <form action="{{ amurl('create') }}" method="post" class="form-horizontal">
                 @csrf
                 <div class="card-body">
                     <div class="form-group">
@@ -20,21 +20,21 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">Description</label>
+                        <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
                         <div class="col-sm-10">
-                            <textarea name="description" required class="form-control" placeholder="Description">
-                            </textarea>
+                            <input type="email" name="email" required class="form-control" id="inputEmail3" placeholder="Email">
                         </div>
                     </div>
-                    <br>
                     <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">Manager</label>
+                        <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
                         <div class="col-sm-10">
-                            <select name="manager_id" class="form-control">
-                                @foreach( $managers as $manager)
-                                <option value="{{ $manager->id }}"> {{ $manager->name }}</option>
-                                @endforeach
-                            </select>
+                            <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="con" class="col-sm-2 control-label">Confirmation Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" name="password_confirmation" class="form-control" id="con" placeholder="Confirmatio Password">
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
 @section('js')
     <script>
         $('.login-box').removeClass('login-box');
-        $( "div.col-sm-10:has(textarea), div.col-sm-10:has(select), div.col-sm-10:has(input[type='text'])").css({
+        $( "div.col-sm-10:has(input[type='email']), div.col-sm-10:has(input[type='password']), div.col-sm-10:has(input[type='text'])").css({
             'float':'right',
             'width': '100%'
         })

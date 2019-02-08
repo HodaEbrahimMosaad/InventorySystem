@@ -12,7 +12,7 @@ class Inventory extends Model
     protected $table = 'inventories';
 
     protected $fillable = [
-        'name', 'description', 'created_by', 'updated_by', 'deleted_by'
+        'name', 'description', 'created_by', 'updated_by', 'deleted_by', 'manager_id'
     ];
 
 
