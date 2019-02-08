@@ -27,6 +27,20 @@ if(!function_exists('admin'))
         return auth()->guard('admin');
     }
 }
+if(!function_exists('murl'))
+{
+    function murl($path = null )
+    {
+        return url("manager/" . $path);
+    }
+}if(!function_exists('surl'))
+{
+    function surl($path = null )
+    {
+        return url("supplier/" . $path);
+    }
+}
+
 if(!function_exists('get_session'))
 {
     function get_session($session)

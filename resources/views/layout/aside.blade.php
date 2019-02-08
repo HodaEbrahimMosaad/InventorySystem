@@ -15,7 +15,7 @@
                         </div>
                         <div class="info">
                             <a href="#" class="d-block">
-                                {{ ucfirst(admin()->user()->name) }}
+                                {{ ucfirst(admin()->user()->name ?? auth()->user()->name) }}
                             </a>
             </div>
         </div>
@@ -26,6 +26,7 @@
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
                 <li class="nav-item has-treeview menu-open">
+                    @if( admin()->user()!== null )
                         <a href="#" class="nav-link active">
                         <i class="nav-icon fa fa-dashboard"></i>
                         <p>
@@ -86,45 +87,28 @@
                                 <p>Create Manager</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="pages/UI/buttons.html" class="nav-link">
-                                <i class="fa fa-circle-o nav-icon"></i>
-                                <p>Buttons</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/UI/sliders.html" class="nav-link">
-                                <i class="fa fa-circle-o nav-icon"></i>
-                                <p>Sliders</p>
-                            </a>
-                        </li>
                     </ul>
                 </li>
+                @endif
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fa fa-edit"></i>
                         <p>
-                            Forms
+                            Manage Suppliers
                             <i class="fa fa-angle-left right"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/forms/general.html" class="nav-link">
+                            <a target="_blank" href="{{ surl('') }}" class="nav-link">
                                 <i class="fa fa-circle-o nav-icon"></i>
-                                <p>General Elements</p>
+                                <p>Present All</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/forms/advanced.html" class="nav-link">
+                            <a target="_blank" href="{{ surl('create') }}" class="nav-link">
                                 <i class="fa fa-circle-o nav-icon"></i>
-                                <p>Advanced Elements</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/forms/editors.html" class="nav-link">
-                                <i class="fa fa-circle-o nav-icon"></i>
-                                <p>Editors</p>
+                                <p>Create Supplier</p>
                             </a>
                         </li>
                     </ul>

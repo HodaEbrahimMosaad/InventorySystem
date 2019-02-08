@@ -10,7 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::group(['prefix' => 'manager'], function () {
+    Route::get('login', 'ManagerAuth@login')->name('login');
+    Route::post('login', 'ManagerAuth@login_action');
+    Route::get('logout', 'ManagerAuth@signout');
+    Route::get('home', 'ManagerAuth@home')->middleware('auth');
+});
 
 
 

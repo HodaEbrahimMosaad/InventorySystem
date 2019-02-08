@@ -21,7 +21,7 @@ Route::group(['prefix' => 'admin'], function () {
             Route::post('create', 'AdminController@store');
             Route::any('/logout', 'AdminAuth@logout');
         });
-        Route::group(['prefix' => 'manager', 'namespace'], function () {
+        Route::group(['prefix' => 'manager'], function () {
             Route::resource('/', 'ManagerController');
             Route::get('/{user}', 'ManagerController@show');
             Route::get('/create', 'ManagerController@create');
