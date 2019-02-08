@@ -16,9 +16,13 @@ class CreateTransactionsTable extends Migration
         Schema::create('transactions', function (Blueprint $table) {
             $table->increments('id');
             $table->enum('type', ['add', 'consume']);
-            $table->string('item');
+            $table->unsignedInteger('item_id');
             $table->float('amount');
             $table->text('notes');
+            $table->unsignedInteger('created_by')->nullable();
+            $table->unsignedInteger('updated_by')->nullable();
+            $table->unsignedInteger('deleted_by')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

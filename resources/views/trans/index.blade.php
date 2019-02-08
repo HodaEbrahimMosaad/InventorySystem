@@ -12,30 +12,30 @@
         <table id="myTable" class="table table-bordered table-hover">
             <thead class="thead-dark">
             <th>ID</th>
-            <th>Name</th>
-            <th>Unit</th>
-            <th>Supplier</th>
+            <th>Type</th>
+            <th>Item</th>
+            <th>Amount</th>
             <th>Actions</th>
             </thead>
             <tbody>
-            @foreach( $items as $item)
+            @foreach( $trans as $tran)
                 <tr>
-                    <td>{{ $item->id }}</td>
-                    <td>{{ $item->name }}</td>
-                    <td>{{ $item->type }}</td>
-                    <td>{{ $item->supplier->name }}</td>
+                    <td>{{ $tran->id }}</td>
+                    <td>{{ $tran->type }}</td>
+                    <td>{{ $tran->item->name }}</td>
+                    <td>{{ $tran->amount }} {{ $tran->item->type }}</td>
                     <td>
-                        <a target="_blank" class="btn btn-primary edit btn-sm" href="{{ iurl($item->id.'/edit') }}">
+                        <a target="_blank" class="btn btn-primary edit btn-sm" href="{{ turl($tran->id.'/edit') }}">
                             <i class="fa fa-edit">
                                 edit
                             </i>
                         </a>
-                        <a data-toggle="modal" data-target="#exampleModal" class="btn btn-danger delete btn-sm" data-id="{{ $item->id }}">
+                        <a data-toggle="modal" data-target="#exampleModal" class="btn btn-danger delete btn-sm" data-id="{{ $tran->id }}">
                             <i class="fa fa-trash">
                                 delete
                             </i>
                         </a>
-                        <a target="_blank" href="{{ iurl($item->id) }}"  class='btn btn-info btn-sm' >
+                        <a target="_blank" href="{{ turl($tran->id) }}"  class='btn btn-info btn-sm' >
                             <i class="fa fa-search">
                                 view
                             </i>
@@ -74,7 +74,7 @@
 @section('js')
     <script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('js/dataTable.bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/itm_index.js') }}"></script>
+    <script src="{{ asset('js/trn_index.js') }}"></script>
     <script>
         $('#myTable').DataTable();
     </script>

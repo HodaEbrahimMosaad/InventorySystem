@@ -10,7 +10,7 @@ class ItemController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth:web,admin');
     }
 
     public function index()
@@ -68,6 +68,11 @@ class ItemController extends Controller
         $item = Item::find($id)->update($inputs);
         session()->flash('suc', 'Item has been updated suc');
         return redirect(iurl());
+    }
+
+    public function show(Item $item)
+    {
+        return view('item.show',compact('item'));
     }
 
     public function destroy(Request $request)

@@ -28,11 +28,22 @@ Route::group(['prefix' => 'item'], function () {
     //Route::get('/', 'SupplierController@index');
     Route::get('/', 'ItemController@index');
     Route::get('/create', 'ItemController@create');
+    Route::get('/{item}', 'ItemController@show');
     Route::post('/', 'ItemController@store');
     Route::get('/{item}/edit', 'ItemController@edit');
     Route::patch('/{item}', 'ItemController@update');
     Route::post('/destroy', 'ItemController@destroy');
 });
+    Route::group(['prefix' => 'transaction'], function () {
+        //Route::get('/', 'SupplierController@index');
+        Route::get('/', 'TransactionController@index');
+        Route::get('/create', 'TransactionController@create');
+        Route::get('/{transaction}', 'TransactionController@show');
+        Route::post('/', 'TransactionController@store');
+        Route::get('/{transaction}/edit', 'TransactionController@edit');
+        Route::patch('/{transaction}', 'TransactionController@update');
+        Route::post('/destroy', 'TransactionController@destroy');
+    });
 
 
 

@@ -19,7 +19,15 @@ if(!function_exists('amurl'))
     {
         return url("admin/manager/" . $path);
     }
-}if(!function_exists('iurl'))
+}
+if(!function_exists('turl'))
+{
+    function turl($path = null )
+    {
+        return url("transaction/" . $path);
+    }
+}
+if(!function_exists('iurl'))
 {
     function iurl($path = null )
     {

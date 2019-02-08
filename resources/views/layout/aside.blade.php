@@ -1,3 +1,4 @@
+@php @endphp
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
@@ -26,7 +27,7 @@
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
                 <li class="nav-item has-treeview menu-open">
-                    @if( admin()->user() !== null )
+                    @if( auth()->guard('admin')->check() )
                         <a href="#" class="nav-link active">
                         <i class="nav-icon fa fa-dashboard"></i>
                         <p>
@@ -132,6 +133,29 @@
                             <a href="{{ iurl('create') }}" target="_blank" class="nav-link">
                                 <i class="fa fa-circle-o nav-icon"></i>
                                 <p>Create Item</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fa fa-table"></i>
+                        <p>
+                            Manage Transactions
+                            <i class="fa fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{ turl('') }}" target="_blank" class="nav-link">
+                                <i class="fa fa-circle-o nav-icon"></i>
+                                <p>Present All</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ turl('create') }}" target="_blank" class="nav-link">
+                                <i class="fa fa-circle-o nav-icon"></i>
+                                <p>Create Transaction</p>
                             </a>
                         </li>
                     </ul>

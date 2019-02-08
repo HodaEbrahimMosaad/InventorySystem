@@ -23,4 +23,7 @@ class Item extends Model
     {
         return$this->belongsTo(Suppliers::class, 'supplier_id');
     }
+    public function transactions(){
+        return $this->hasMany(Transaction::class, 'item_id');
+    }
 }
