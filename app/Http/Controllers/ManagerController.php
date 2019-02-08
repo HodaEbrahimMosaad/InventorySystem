@@ -39,12 +39,12 @@ class ManagerController extends Controller
             'email' => 'required|unique:users|email',
             'password' => 'required|confirmed|min:6',
             'password_confirmation' => 'required',
-            'created_by' => admin()->user()->id
         ]);
         $inputs = [
             'name' => $request->name,
             'password' => Hash::make($request->password),
             'email' => $request->email,
+            'created_by' => admin()->user()->id
         ];
         $user = User::create($inputs);
 

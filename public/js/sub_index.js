@@ -23,7 +23,7 @@ $(document).ready(function () {
             },
             type: "POST",
             method: "POST",
-            url: "manager/destroy",
+            url: "supplier/destroy",
             data: {
                 deletedId: deletedId,
             },

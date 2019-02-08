@@ -16,6 +16,14 @@ Route::group(['prefix' => 'manager'], function () {
     Route::get('logout', 'ManagerAuth@signout');
     Route::get('home', 'ManagerAuth@home')->middleware('auth');
 });
+Route::group(['prefix' => 'supplier'], function () {
+    //Route::get('/', 'SupplierController@index');
+    Route::resource('/', 'SupplierController');
+    Route::get('/{supplier}/edit', 'SupplierController@edit');
+    Route::patch('/{supplier}', 'SupplierController@update');
+    Route::get('/{supplier}', 'SupplierController@show');
+    Route::post('/destroy', 'SupplierController@destroy');
+});
 
 
 
