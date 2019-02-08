@@ -25,10 +25,11 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function role()
+    public function roles()
     {
-        return $this->belongsTo(Role::class, 'user_role', 'user_id', 'role_id');
+        return $this->belongsToMany(Role::class, 'user_role', 'user_id', 'role_id');
     }
+
 
     public function suppliers()
     {
@@ -45,8 +46,26 @@ class User extends Authenticatable
         return $this->hasMany(Transaction::class, 'created_by');
     }
 
+//    public function inventories()
+//    {
+//        return $this->hasMany(Inventory::class, 'created_by');
+//    }
+
     public function inventories()
     {
-        return $this->hasMany(Inventory::class, 'created_by');
+        return $this->hasMany(Inventory::class, 'manager_id');
+    }
+
+    static function get_managers()
+    {
+        $managers = UserRole::where('role_id', 2)->get();
+        $manager_id = [];
+        foreach ($managers as $manager)
+        {
+            $manager_id[] = $manager->user_id;
+        }
+        $managers = User::whereIn('id', $manager_id)->get();
+        //return $manager_id;
+        return $managers;
     }
 }

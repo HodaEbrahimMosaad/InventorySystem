@@ -10,7 +10,7 @@ class Role extends Model
     const MANAGER = 'MANAGER';
 
     public function users() {
-        return $this->belongsTo(User::class, 'role_user', 'role_id', 'user_id');
+        return $this->belongsToMany(User::class, 'user_role', 'role_id', 'user_id');
     }
 
 }

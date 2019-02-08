@@ -6,6 +6,13 @@ if(!function_exists('aurl'))
         return url("admin/" . $path);
     }
 }
+if(!function_exists('aiurl'))
+{
+    function aiurl($path = null )
+    {
+        return url("admin/inventory/" . $path);
+    }
+}
 
 if(!function_exists('admin'))
 {

@@ -6,7 +6,7 @@
     <div class="login-logo">
         <a><b>Admin</b>LTE</a>
     </div>
-    @yield('content')
+    @yield('form_content')
 
 </div>
 @include('form_layout.footer')

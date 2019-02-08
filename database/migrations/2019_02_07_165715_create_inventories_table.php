@@ -17,9 +17,10 @@ class CreateInventoriesTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->text('description');
+            $table->unsignedInteger('manager_id')->nullable();
             $table->unsignedInteger('created_by');
-            $table->unsignedInteger('updated_by');
-            $table->unsignedInteger('deleted_by');
+            $table->unsignedInteger('updated_by')->nullable();
+            $table->unsignedInteger('deleted_by')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

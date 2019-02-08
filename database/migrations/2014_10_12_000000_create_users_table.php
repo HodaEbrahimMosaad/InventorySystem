@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('name')->nullable();
             $table->string('email')->unique()->nullable();
             $table->string('password');
-            $table->unsignedInteger('created_by')->nullable();
+            //$table->unsignedInteger('created_by')->nullable();
             $table->softDeletes();
             $table->rememberToken();
             $table->timestamps();

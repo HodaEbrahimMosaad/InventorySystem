@@ -1,6 +1,6 @@
 @php $title = 'Log In'; @endphp
 @extends('form_layout.master')
-@section('content')
+@section('form_content')
     <!-- /.login-logo -->
     <div class="card">
         <div class="card-body login-card-body">

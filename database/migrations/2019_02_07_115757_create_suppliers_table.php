@@ -18,10 +18,10 @@ class CreateSuppliersTable extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('phone');
-            $table->text('additional_information');
+            $table->text('additional_information')->nullable();
             $table->unsignedInteger('created_by');
-            $table->unsignedInteger('updated_by');
-            $table->unsignedInteger('deleted_by');
+            $table->unsignedInteger('updated_by')->nullable();
+            $table->unsignedInteger('deleted_by')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

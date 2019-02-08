@@ -1,7 +1,8 @@
 @php $title = 'Create Admin'; @endphp
-@extends('form_layout.master')
+
+@extends('layout.master')
 @section('content')
-<div class="col-md-6" style="margin: auto">
+<div class="col-md-6" style="margin: 20px auto; height: -webkit-fill-available">
 @include('layout.message')
 {!! get_session('suc') !!}
     <!-- Horizontal Form -->

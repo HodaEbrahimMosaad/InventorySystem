@@ -31,6 +31,7 @@ class AdminController extends Controller
             'email' => $request->email,
         ];
         $user = User::create($inputs);
+        
         UserRole::create([
             'user_id' => $user->id,
             'role_id' => 1
