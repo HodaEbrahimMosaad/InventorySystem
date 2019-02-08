@@ -21,6 +21,10 @@ Route::group(['prefix' => 'admin'], function () {
             Route::post('create', 'AdminController@store');
             Route::any('/logout', 'AdminAuth@logout');
         });
+        Route::group(['prefix' => 'manager', 'namespace'], function () {
+            Route::resource('/', 'ManagerController');
+            Route::get('/{user}', 'ManagerController@show');
+        });
         Route::group(['prefix' => 'inventory', 'namespace'], function () {
             Route::resource('/', 'InventoryController');
             Route::get('/{inventory}', 'InventoryController@show');

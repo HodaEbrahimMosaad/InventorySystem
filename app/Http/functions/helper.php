@@ -13,7 +13,13 @@ if(!function_exists('aiurl'))
         return url("admin/inventory/" . $path);
     }
 }
-
+if(!function_exists('amurl'))
+{
+    function amurl($path = null )
+    {
+        return url("admin/manager/" . $path);
+    }
+}
 if(!function_exists('admin'))
 {
     function admin()
