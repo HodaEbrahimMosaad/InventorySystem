@@ -18,4 +18,9 @@ class Suppliers extends Model
     {
         return $this->belongsTo(User::class, 'created_by');
     }
+
+    public function items()
+    {
+        return $this->hasMany(Item::class , 'supplier_id');
+    }
 }

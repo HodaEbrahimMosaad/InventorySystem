@@ -26,7 +26,7 @@
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
                 <li class="nav-item has-treeview menu-open">
-                    @if( admin()->user()!== null )
+                    @if( admin()->user() !== null )
                         <a href="#" class="nav-link active">
                         <i class="nav-icon fa fa-dashboard"></i>
                         <p>
@@ -117,21 +117,21 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fa fa-table"></i>
                         <p>
-                            Tables
+                            Manage Items
                             <i class="fa fa-angle-left right"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/tables/simple.html" class="nav-link">
+                            <a href="{{ iurl('') }}" target="_blank" class="nav-link">
                                 <i class="fa fa-circle-o nav-icon"></i>
-                                <p>Simple Tables</p>
+                                <p>Present All</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/tables/data.html" class="nav-link">
+                            <a href="{{ iurl('create') }}" target="_blank" class="nav-link">
                                 <i class="fa fa-circle-o nav-icon"></i>
-                                <p>Data Tables</p>
+                                <p>Create Item</p>
                             </a>
                         </li>
                     </ul>

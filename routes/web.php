@@ -24,6 +24,15 @@ Route::group(['prefix' => 'supplier'], function () {
     Route::get('/{supplier}', 'SupplierController@show');
     Route::post('/destroy', 'SupplierController@destroy');
 });
+Route::group(['prefix' => 'item'], function () {
+    //Route::get('/', 'SupplierController@index');
+    Route::get('/', 'ItemController@index');
+    Route::get('/create', 'ItemController@create');
+    Route::post('/', 'ItemController@store');
+    Route::get('/{item}/edit', 'ItemController@edit');
+    Route::patch('/{item}', 'ItemController@update');
+    Route::post('/destroy', 'ItemController@destroy');
+});
 
 
 

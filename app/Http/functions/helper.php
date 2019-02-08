@@ -19,6 +19,12 @@ if(!function_exists('amurl'))
     {
         return url("admin/manager/" . $path);
     }
+}if(!function_exists('iurl'))
+{
+    function iurl($path = null )
+    {
+        return url("item/" . $path);
+    }
 }
 if(!function_exists('admin'))
 {
